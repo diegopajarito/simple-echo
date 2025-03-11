@@ -1,0 +1,14 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+
+	"postCreateCommand": "sudo sh -c 'chmod +x .devcontainer/setup.sh && chown vscode:vscode ./.devcontainer/setup.sh' && ./.devcontainer/setup.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"tamasfe.even-better-toml",
+				"EditorConfig.EditorConfig"
+			]
+		}
+	}
+}

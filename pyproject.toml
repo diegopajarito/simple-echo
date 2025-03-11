@@ -1,0 +1,21 @@
+[project]
+name = "simple-echo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nikos Ves", email = "nick.ves@glasgow.ac.uk" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.1.8",
+    "pandas>=2.2.3",
+]
+
+[project.scripts]
+simple-echo = "simple_echo:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
