@@ -4,8 +4,8 @@ This is a lab oriented repository for bite sized python courses.
 
 
 
->![TIP]
-> Remember, if you cloned the repository, you can always revert to the original state 
+>[!TIP]
+>Remember, if you cloned the repository, you can always revert to the original state 
 
 ## Forking the repository
 This is a public repository, so you can fork it without any restrictions.
@@ -69,7 +69,7 @@ To activate the virtual environment:
 source .venv/bin/activate
 ~~~
 
->![Note]
+>[!Note]
 >Remember to activate the virtual environment before running any python commands.
 
 ### Deactivating the virtual environment
@@ -79,7 +79,7 @@ deactivate
 
 ## Install the code to the virtual environment
 
->![Warning]
+>[!Warning]
 >Remember to activate the virtual environment before running the following commands.
 
 You can install the code to your active python environment:
@@ -87,7 +87,7 @@ You can install the code to your active python environment:
 ```bash
 py -m pip install -e .
 ```
->![Note]
+>[!Note]
 > The `-e` flag installs the code in "editable" mode, so you can modify the code and see the changes immediately.
 
 
