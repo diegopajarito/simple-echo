@@ -1,5 +1,5 @@
 
-from math import pi as π, e as e, tau as τ
+from math import pi as π, e as e
 class A_Shape:
 
     def get_area(self):

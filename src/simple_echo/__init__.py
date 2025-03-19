@@ -1,6 +1,5 @@
 import click
 import random
-import os
 import calendar
 import datetime
 from click import IntRange
